@@ -1,0 +1,473 @@
+*  {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ffffff;;
+
+
+}
+
+
+
+h1,h2,h3,h4,h5,p{
+    margin: 0px;
+}
+
+a{ 
+    text-decoration: none;
+    color: inherit;
+}
+
+address {
+    font-style: normal
+}
+
+ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    margin-bottom: 0px;
+    padding-top: 24px
+}
+
+button{
+    background: transparent;
+    padding: 0;
+    border: 1px solid transparent;
+}
+.container{
+    width: 1140px;
+    height: auto;
+    margin: 0 auto;
+    color: #ffffff;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.top-layn__containe{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.top-layn__container {
+    margin-bottom: -55px
+
+}
+
+.top__layn {
+    margin-bottom: 415px;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-layn {
+    background: url("./picture/headlineselefante.png") center top no-repeat;
+}
+.page-tatle{
+    font-size: 70px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.breadcrums__list {
+    display: flex;
+    align-items: center;
+}
+
+.top-layn {
+    min-height: 412px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.breadcrums__link{
+    font-size: 14px;
+}
+
+.breadcrums__item{
+    margin-left: 0px;
+}
+
+:after {
+    margin-left: 0px;
+}
+
+.breadcrums__item::after {
+    
+    content: "/";
+    
+}
+
+.breadcrums__item:last-child:after{
+    display: none;
+}
+
+.menu__list {
+    margin-left: -33px;
+}
+/*.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px; padding-left: 0px; padding-right: 51px;
+    align-items: center;
+    margin-bottom: 94px;
+}
+
+.logo__menu
+{display: flex;
+align-items: center;
+
+}
+
+.logo__icon {
+    margin-right: 14px;
+}
+
+.contact__graph {
+    float: right;
+    font-size: 13px;
+    margin-top: -7px;
+
+}
+.menu__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 54px;
+    font-size: 14px;
+}
+
+.contacts__tel {
+    display: block;
+    text-decoration: none;
+    font-size: 26px;
+
+}
+
+.menu-down__item {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+
+.preview__title {
+    font-size: 72px;
+    margin-bottom: 104px;
+}
+
+.menu-down__item {
+    font-size: 14px;
+}*/
+
+/* Закончил Хедер*/
+.page-content {
+    background: #ffff;
+    color: #000000;
+    padding: 63px 0;
+}
+.service__content{
+    color: #000000;
+    flex: 1;
+    padding: 10px 0;
+}
+
+.service__item {
+    display: flex;
+}
+.service__img {
+    width: 40%;
+    margin-right: 5%;
+
+}
+
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.service__title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 28px;
+
+}
+ ul.service {
+    margin-bottom: 32px;
+ }
+
+.service{
+    padding: 21px 0;
+}
+.service__desc {
+    line-height: 1,7;
+    margin-bottom: 59px;
+}
+
+.service__desc {    
+    padding: 5px 0}
+/*
+.conteiner__main {   
+    width: 1140px;
+    margin: 0 auto;   
+}*/
+
+.container__page {
+    height: auto;
+
+}
+
+button{
+    background: transparent;
+    padding: 0;
+    border: 1px solid transparent;
+}
+
+.button__service {
+    background: #f5170e;
+    border-radius: 35px;
+    height: 55px;
+    width: 168px;
+
+    text-transform: uppercase;
+    color: #ffff;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.button--border{
+    background: transparent;
+    border-color: #f5170e;
+    color: #f5170e;
+    height: 55px;
+    width: 168px;
+}
+/*
+.waterfall {
+    display: flex;
+    margin-bottom: 48px;
+}
+
+.mankey {
+    display: flex;
+}
+
+.content {
+    padding: 15px 59px;
+}
+.Yang__Bey, .island {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+ .island_m, .water_yb {
+    font-size: 16px;
+    margin-bottom: 59px;
+ }
+*/
+.paginator__display, .paginator__list, .paginator__item {display: inline-block;
+}
+
+.paginator{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    color: #001821;
+}
+
+.pagin--red--ligt .paginator__list { font-size: 22px;
+
+}
+
+.paginator__link {
+    display: inline-block;
+    /* height: 32px;*/
+    margin-left: 15px;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    background-color: transparent;
+    font-weight: 700;
+    font-size: 16px;
+    color: #000000;
+    line-height: 32px;
+    transition: -4s;
+}
+
+.paginator__display {
+    /*margin-left: 10px;
+    margin-block: 2px;
+    margin-bottom: 5px;*/
+  
+}
+.paginator__link:hover {
+    color: #ffffff;
+    background: #ff0202
+}
+
+/* Закончил  меню*/
+
+
+.inner-section {
+    background: #ffffff;
+    padding: 50px 0;
+}
+.inner-section--bg--grey{
+    background: #F4F5F5;
+    margin-top: 21px     ;
+    padding-top: 40px;}
+
+.inner-section__title{
+    color: #000000;
+    font-size: 48px;
+    font-weight: bold;
+    padding-top: 13px;
+    margin-bottom: 52px;
+}
+.partners__link  {
+    text-decoration: none;
+    display: flex;
+    width: auto;
+    height: 132px;
+    /* width: 285px;
+    height: 123px;*/
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 74px;
+}
+
+.partners__link:last-child {
+    margin-right: 0px;
+}
+
+
+.partners {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.partners__air {
+    text-decoration: none;
+    flex: 25%;
+    display: flex;
+    width: auto;
+    height: 123px;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+ul.partners {    justify-content: space-between;}
+
+/*
+.conteiner__partners{   
+        width: 1187px;
+        height: 450px;
+        margin:  auto;
+        background-color: #F4F5F5;;
+        
+}
+
+
+
+.all_partners {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.pobeda, .S7, .Sletat, .Lufthansa, .airBaltic, .Pegassus, .Ural, .Pegas { height: 129px;
+}
+
+.li.Ural{
+    margin-right: 60px;
+    margin-left: -60px;}
+
+.conteiner__partners {
+    font-size: 48px;
+}
+.text__partners{
+    margin-bottom: 83px;
+}
+*/
+/* Закончил партнеры*/
+
+
+.footer__container{   
+    width: 1140px;
+    height: 132px;
+    padding-top: 0px;
+    display: flex;
+    align-items: center;
+    margin:  auto;
+    justify-content: space-between;
+
+}
+
+
+
+.footer {
+ background: #001821;
+ padding-top: 0px;
+ align-items: center;
+
+}
+.footer__left{
+    display: flex;
+    justify-content: center;
+}
+    
+.footer__right{
+    display: flex;
+      float: right;
+      justify-content: center;
+      align-items: center;
+ }
+.menu {
+    display: inline-block;
+    margin-left: 30px;
+
+}
+
+.socials {
+    margin-right: 26px;
+}
+.socials__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.socials__list {
+    margin-left: 0px;
+}
+/*.socials {
+    margin-left: 45px;
+}
+
+.contacts__tel__fot {
+    margin-left: 0px;
+    font-size: 24px;
+}
+.cotacts__text_fot {font-size: 13px;
+    }
+.cotacts{
+    display: block;
+    margin-left: 35px;
+}

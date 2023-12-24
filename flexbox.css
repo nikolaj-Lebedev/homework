@@ -1,0 +1,17 @@
+.container {
+   display: flex;
+}
+
+.item {
+    width: 70px;
+}
+
+.item:nth-child(3)
+{order: -10;}
+
+.item:nth-child(2)
+{order: 7;}
+
+.item:nth-child(5){
+    order: -7;
+}
